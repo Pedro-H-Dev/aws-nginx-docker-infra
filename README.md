@@ -50,3 +50,6 @@ sudo usermod -aG docker ec2-user
 # 5. DEPLOY E EXECUÇÃO DO CONTAINER NGINX
 # ==========================================
 sudo docker run -d --name servidor-nginx -p 80:80 nginx
+
+````
+<img width="1438" height="357" alt="Captura de tela 2026-07-30 221339" src="https://github.com/user-attachments/assets/6d61b5c3-0d2b-4567-b27b-a878ccf68246" />
