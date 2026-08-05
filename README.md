@@ -5,8 +5,12 @@ Projeto prático focado em infraestrutura em nuvem, conteinerização e administ
 ---
 
 ## 📌 Visão Geral da Arquitetura
-[ Usuário / Navegador ] ──► (Porta 80 / HTTP) ──► [ AWS EC2 Instance ] ──► [ Docker Engine ] ──► [ Container Nginx ]
-
+```mermaid
+graph LR
+    A[👤 Usuário / Navegador] -->|Porta 80 / HTTP| B[🖥️ AWS EC2 Instance]
+    B --> C[🐳 Docker Engine]
+    C --> D[🌐 Container Nginx]
+````
 ---
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
