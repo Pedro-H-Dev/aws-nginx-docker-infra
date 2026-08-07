@@ -56,6 +56,6 @@ sudo usermod -aG docker ec2-user
 sudo docker run -d --name servidor-nginx -p 80:80 nginx
 
 ````
-### Desenvolvido por Pedro Henrique 🚀
+### Feito por Pedro H.
 
 <img width="1438" height="357" alt="Captura de tela 2026-07-30 221339" src="https://github.com/user-attachments/assets/6d61b5c3-0d2b-4567-b27b-a878ccf68246" />
